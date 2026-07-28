@@ -205,7 +205,7 @@ class PdfHelper extends Model
         ];
     
         $pdf = PDF::loadView('pdf.delivery-order2', $data);
-        $pdf->setPaper('a4', 'portrait'); // A4 size in portrait mode
+        $pdf->setPaper('letter', 'portrait');
     
         $invoiceFilename = 'delivery-order-' . $order->id . '.pdf';
     
@@ -290,7 +290,7 @@ class PdfHelper extends Model
         ];
     
         $pdf = PDF::loadView('pdf.delivery-order2', $data);
-        $pdf->setPaper('a4', 'portrait'); // A4 size in portrait mode
+        $pdf->setPaper('letter', 'portrait');
     
         $invoiceFilename = 'delivery-order-' . $order->id . '.pdf';
     
