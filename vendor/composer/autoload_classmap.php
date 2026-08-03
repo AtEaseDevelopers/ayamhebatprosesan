@@ -254,6 +254,7 @@ return array(
     'Dflydev\\DotAccessData\\Exception\\InvalidPathException' => $vendorDir . '/dflydev/dot-access-data/src/Exception/InvalidPathException.php',
     'Dflydev\\DotAccessData\\Exception\\MissingPathException' => $vendorDir . '/dflydev/dot-access-data/src/Exception/MissingPathException.php',
     'Dflydev\\DotAccessData\\Util' => $vendorDir . '/dflydev/dot-access-data/src/Util.php',
+    'DoPreviewOrderSeeder' => $baseDir . '/database/seeds/DoPreviewOrderSeeder.php',
     'Doctrine\\Common\\Cache\\Cache' => $vendorDir . '/doctrine/cache/lib/Doctrine/Common/Cache/Cache.php',
     'Doctrine\\Common\\Cache\\CacheProvider' => $vendorDir . '/doctrine/cache/lib/Doctrine/Common/Cache/CacheProvider.php',
     'Doctrine\\Common\\Cache\\ClearableCache' => $vendorDir . '/doctrine/cache/lib/Doctrine/Common/Cache/ClearableCache.php',
